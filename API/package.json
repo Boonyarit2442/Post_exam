@@ -1,21 +1,19 @@
 {
-  "dependencies": {
-    "@types/express": "^4.17.21",
-    "express": "^4.18.2",
-    "ts-node": "^10.9.2",
-    "ts-node-dev": "^2.0.0",
-    "tsc": "^2.0.4",
-    "typescript": "^5.3.3"
-  },
   "name": "api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "/api/src/index.js",
   "scripts": {
-    "start": "ts-node-dev src/index.ts",
+    "start": "node C:/Users/rit/Desktop/Post_exam_v2/api/routers/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mariadb": "^3.3.0",
+    "mysql": "^2.18.1"
+  }
 }
